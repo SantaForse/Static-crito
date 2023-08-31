@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Poppins:ital,wght@0,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;1,200;1,500&display=swap');
+
+
+:root {
+    --font-inter:'Inter', sans-serif;
+    --font-dm: 'Poppins', sans-serif;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --color-beige: #F0EFE9;
+    --color-yellow-botton: #F9D783;
+    --color-yellow-team: #EDCF86;
+    --color-white: #FFFFFF;
+    --color-black: #191919;
+    --color-gray-border: #707070;
+    --color-orange: #F94D1C;
+    --color-black-footer: #0E1021;
+
+    --font-size-15: 15px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-45: 45px;
+    --font-size-96: 96px;
+}
+
+.showcase {
+    background-color: var(--color-beige);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+    .grid-container .middle-grid {
+
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+        .grid-container .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+
+
+        .grid-container .middle-grid .middle-grid-item {
+            display: flex;
+            align-items: center; 
+            margin-bottom: 0;
+            
+        }
+
+            .showcase .grid-item .showcase-top-contact {
+                font-size: var(--font-size-15);
+                font-weight: var(--font-weight-light);
+                font-family: var(--font-inter);
+                color: var(--color-black);
+                margin-right: 50px;
+                margin-bottom: 50px;
+                margin-top: 15px;
+            }
+
+            .showcase .grid-item .showcase-navigation {
+                font-size: var(--font-size-16);
+                font-weight: var(--font-weight-medium);
+                font-family: var(--font-inter);
+                color: var(--color-black);
+                margin-right: 32px;
+                text-decoration: none;
+                transition: all 200ms ease-in-out;
+                margin-top: 0;
+                margin-bottom: 0;
+
+            }
+
+                .showcase .grid-item .showcase-navigation:hover {
+                    text-decoration: underline;
+
+                }
+
+        .showcase .grid-item .showcase-media {
+            font-size: var(--font-size-18);
+            color: var(--color-black);
+            margin-bottom: 30px;
+            transition: all 200ms ease-in-out;
+        }
+
+    
+
+            .showcase .grid-item .showcase-media a {
+                margin-right: 15px;
+                color: var(--color-black);
+            }
+
+                .showcase .grid-item .showcase-media a:hover {
+                    color: var(--color-yellow-botton);
+                }
+
+        .showcase .grid-item .login-button {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-semibold);
+            font-family: var(--font-inter);
+            background-color: var(--color-yellow-botton);
+            border-radius: 25px;
+            height: 50px;
+            width: 120px;
+            border: none;
+            justify-content: center;
+            transition: all 200ms ease-in-out;
+        }
+
+            .showcase .grid-item .login-button:hover {
+                background-color: var(--color-black);
+                color: var(--color-yellow-botton);
+            }
+
+.showcase-image-part .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .showcase-image-part .showcase-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .showcase-image-part .showcase-text h1 {
+            font-size: var(--font-size-96);
+            font-family: var(--font-dm);
+            font-weight: 700;
+            color: var(--color-black);
+        }
+
+
+        .showcase-image-part .showcase-text h5 {
+            font-size: var(--font-size-20);
+            font-family: var(--font-inter);
+            font-weight: var(--font-weight-regular);
+            color: var(--color-black);
+        }
+
+        .showcase-image-part .showcase-text .showcase-buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .showcase-image-part .showcase-text .showcase-buttons .showcase-button-yellow {
+                font-size: var(--font-size-16);
+                font-weight: var(--font-weight-semibold);
+                font-family: var(--font-inter);
+                background-color: var(--color-yellow-botton);
+                border-radius: 25px;
+                height: 56px;
+                width: 208px;
+                border: none;
+                justify-content: center;
+                transition: all 200ms ease-in-out;
+            }
+
+                .showcase-image-part .showcase-text .showcase-buttons .showcase-button-yellow:hover {
+                    background-color: var(--color-black);
+                    color: var(--color-yellow-botton);
+                }
+
+            .showcase-image-part .showcase-text .showcase-buttons .showcase-button-trans {
+                font-size: var(--font-size-16);
+                font-weight: var(--font-weight-semibold);
+                font-family: var(--font-inter);
+                background-color: var(--color-beige);
+                border-radius: 25px;
+                height: 56px;
+                width: 208px;
+                border: 1px solid black;
+                justify-content: center;
+                transition: all 200ms ease-in-out;
+            }
+
+                .showcase-image-part .showcase-text .showcase-buttons .showcase-button-trans:hover {
+                    border: none;
+                    background-color: var(--color-yellow-botton);
+                }
+
+
+
+
+    .showcase-image-part .img-showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
