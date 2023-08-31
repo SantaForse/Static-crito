@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Poppins:ital,wght@0,100;1,200;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;1,200;1,500&display=swap');
 
 
 :root {
     --font-inter:'Inter', sans-serif;
-    --font-dm: 'Poppins', sans-serif;
+    --font-dm: 'DM Sans', sans-serif;
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
@@ -28,10 +28,10 @@
     --font-size-45: 45px;
     --font-size-96: 96px;
 }
-
-.showcase {
+.page-top {
     background-color: var(--color-beige);
 }
+
 
 .grid-container {
     display: grid;
@@ -46,12 +46,16 @@
 
         .grid-container .logo {
             display: flex;
-            justify-content: center;
+            justify-content:flex-start;
             align-items: center;
             
         }
 
-
+        .grid-container .middle-grid {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
 
         .grid-container .middle-grid .middle-grid-item {
             display: flex;
@@ -88,11 +92,19 @@
 
                 }
 
+        .showcase .right-showcase {
+            display: flex;
+            flex-direction: column;
+            justify-content:start;
+            align-items: end;
+
+        }
         .showcase .grid-item .showcase-media {
             font-size: var(--font-size-18);
             color: var(--color-black);
             margin-bottom: 30px;
             transition: all 200ms ease-in-out;
+            margin-top: 15px;
         }
 
     
@@ -113,7 +125,7 @@
             background-color: var(--color-yellow-botton);
             border-radius: 25px;
             height: 50px;
-            width: 120px;
+            width: 150px;
             border: none;
             justify-content: center;
             transition: all 200ms ease-in-out;
@@ -124,20 +136,21 @@
                 color: var(--color-yellow-botton);
             }
 
-.showcase-image-part .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.showcase-image-part  {
+    display: flex;
+    flex-direction: row;
 }
 
     .showcase-image-part .showcase-text {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction:column; /* Change this from column to row */
+        justify-content:flex-start;
+        align-items:flex-start;
+        padding-top: 150px;
     }
 
         .showcase-image-part .showcase-text h1 {
-            font-size: var(--font-size-96);
+            font-size: 90px;
             font-family: var(--font-dm);
             font-weight: 700;
             color: var(--color-black);
@@ -154,8 +167,11 @@
         .showcase-image-part .showcase-text .showcase-buttons {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
+            align-items: start;
+            padding-top: 40px;
+
+            
         }
 
             .showcase-image-part .showcase-text .showcase-buttons .showcase-button-yellow {
@@ -169,6 +185,7 @@
                 border: none;
                 justify-content: center;
                 transition: all 200ms ease-in-out;
+                margin-right: 15px;
             }
 
                 .showcase-image-part .showcase-text .showcase-buttons .showcase-button-yellow:hover {
@@ -191,7 +208,7 @@
 
                 .showcase-image-part .showcase-text .showcase-buttons .showcase-button-trans:hover {
                     border: none;
-                    background-color: var(--color-yellow-botton);
+                    color: var(--color-yellow-botton);
                 }
 
 
@@ -199,7 +216,7 @@
 
     .showcase-image-part .img-showcase {
         display: flex;
-        flex-direction: column;
+        flex-direction: row; /* Change this from column to row */
         justify-content: right;
         align-items: center;
     }
