@@ -58,6 +58,8 @@
             justify-content: flex-start;
         }
 
+
+
         .grid-container .middle-grid .middle-grid-item {
             display: flex;
             align-items: center; 
@@ -187,6 +189,8 @@
                 justify-content: center;
                 transition: all 200ms ease-in-out;
                 margin-right: 15px;
+                position: relative;
+                z-index: 1;
             }
 
                 .showcase-image-part .showcase-text .showcase-buttons .showcase-button-yellow:hover {
@@ -205,6 +209,8 @@
                 border: 1px solid black;
                 justify-content: center;
                 transition: all 200ms ease-in-out;
+                position: relative;
+                z-index: 1;
             }
 
                 .showcase-image-part .showcase-text .showcase-buttons .showcase-button-trans:hover {
