@@ -30,6 +30,7 @@
 }
 .page-top {
     background-color: var(--color-beige);
+    position: relative;
 }
 
 
@@ -219,6 +220,13 @@
         flex-direction: row; /* Change this from column to row */
         justify-content: right;
         align-items: center;
+    }
+
+
+    .lines-under {
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
 
