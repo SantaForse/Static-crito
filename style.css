@@ -341,3 +341,63 @@
                 .lower-footer-container .lower-footer .footer-media a:hover {
                     color: var(--color-yellow-botton);
                 }
+
+.news-updates {
+    background-color: var(--color-beige);
+}
+
+    .news-updates .news-updates-two {
+        display: grid;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        grid-template-columns: 4.1fr 1.7fr 1fr;
+    }
+
+        .news-updates .subscribe-button {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-semibold);
+            font-family: var(--font-inter);
+            background-color: var(--color-yellow-botton);
+            border-radius: 25px;
+            height: 56px;
+            width: 208px;
+            border: none;
+            justify-content: center;
+            transition: all 200ms ease-in-out;
+            margin-right: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+            .news-updates .subscribe-button:hover {
+                background-color: var(--color-black);
+                color: var(--color-yellow-botton);
+            }
+
+
+        .news-updates .subscribe-input {
+            width: 310px;
+            height: 56px;
+            border-radius: 25px;
+            border: none;
+            margin-right: 15px;
+
+        }
+
+            .news-updates .news-updates-two input {
+             padding-left: 40px;   
+            }
+
+                .news-updates .news-updates-two input:focus {
+                    border: none;
+                    outline: 1px solid orange;
+                }
+
+
+        .news-updates h2 {
+            font-size: var(--font-size-45);
+            font-weight: var(--font-weight-bold);
+            font-family: var(--font-dm);
+            color: var(--color-black);
+            align-self: flex-start;
+        }
