@@ -174,256 +174,12 @@
             left: 0;
         }
 
-.digitalization h2 {
-    font-family: var(--font-dm);
-    font-size: var(--font-size-45);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-black);
-}
-
-    .digitalization .digitalization-points {
-        display: flex;
-    }
-
-        .digitalization .digitalization-points h4 {
-            font-family: var(--font-dm);
-            font-size: var(--font-size-20);
-            font-weight: var(--font-weight-medium);
-            color: var(--color-black);
-            margin-right: 30px;
-            margin-top: 25px;
-        }
-
-            .digitalization .digitalization-points .fa-solid {
-                font-size: 10px;
-            } 
-
-    .digitalization-flex {
-        display: grid;
-        grid-template-columns: 1.8fr 1fr;
-        gap: 140px;
-    }
-    
-        .digitalization-flex .digitalization-left {
-            flex-direction: column; 
-        }
-
-            .digitalization-flex .digitalization-left img {
-                width: 760px;
-                margin-top: 75px;
-            }
-
-            .digitalization-flex .digitalization-left h4 {
-                font-family: var(--font-inter);
-                font-size: var(--font-size-16);
-                font-weight: var(--font-weight-regular);
-                color: var(--color-black-opacity-70);
-            }
-
-            .digitalization-flex .digitalization-left .quote {
-                margin-top: 100px;
-                margin-bottom: 80px;
-                display: flex;
-                flex-direction: row;
-            }
-
-                .digitalization-flex .digitalization-left .quote h2 {
-                    margin-right: 20px;
-                }
-
-            .digitalization-flex .digitalization-left .text-0 {
-                margin-top: 52px;
-            }
-
-            .digitalization-flex .digitalization-left .text-1 {
-                margin-top: 45px;
-            }
-
-            .digitalization-flex .digitalization-left .text-2 {
-                margin-bottom: 45px;
-            }
-
-            .digitalization-flex .digitalization-left button {
-                background-color: var(--color-gray-opacity-5);
-                border: none;
-                color: var(--color-black);
-                font-family: var(--font-inter);
-                font-size: var(--font-size-14);
-                font-weight: var(--font-weight-medium);
-                border-radius: 25px;
-                padding-top: 16px;
-                padding-bottom: 13px;
-                margin-right: 6px;
-                transition: all 200ms ease-in-out;
-                margin-bottom: 65px;
-            }
-
-                .digitalization-flex .digitalization-left button:hover {
-                    background-color: var(--color-yellow-botton);
-                }
-
-            .digitalization-flex .digitalization-left .button-1 {
-                padding-right: 18px;
-                padding-left: 18px;
-            }
-
-            .digitalization-flex .digitalization-left .button-2 {
-                padding-right: 36px;
-                padding-left: 36px;
-            }
-
-            .digitalization-flex .digitalization-left .button-3 {
-                padding-right: 44px;
-                padding-left: 44px;
-            }
-
-            .digitalization-flex .digitalization-left .button-4 {
-                padding-right: 27px;
-                padding-left: 27px;
-            }
-
-            .digitalization-flex .digitalization-left .button-5 {
-                padding-right: 25px;
-                padding-left: 25px;
-            }
-
-            .digitalization-flex .digitalization-left .button-6 {
-                padding-right: 44px;
-                padding-left: 44px;
-            }
-
-        .digitalization-flex .digitalization-right {
-            display: flex;
-            flex-direction: column;
-        }
-
-            .digitalization-flex .digitalization-right input {
-                margin-bottom: 40px;
-                width: 100%;
-                background-color: #F3F3F3;
-                border: none;
-                border-radius: 25px;
-                padding-top: 17px;
-                padding-bottom: 15px;
-                padding-left: 15px;
-            }
-
-            .digitalization-flex .digitalization-right .recent-posts {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                border: 1px solid var(--color-gray-border-opacity20) ;
-                padding: 40px;
-                margin-bottom: 40px;
-            }
-
-                .digitalization-flex .digitalization-right .recent-posts a {
-                    font-family: var(--font-dm);
-                    font-size: var(--font-size-22);
-                    font-weight: var(--font-weight-bold);
-                    color: var(--color-black);
-                    text-decoration: none;
-                }
-
-                    .digitalization-flex .digitalization-right .recent-posts a:hover {
-                        text-decoration: underline;
-                    }
-
-                .digitalization-flex .digitalization-right .recent-posts h5 {
-                    font-family: var(--font-dm);
-                    font-size: var(--font-size-16);
-                    font-weight: var(--font-weight-bold);
-                }
-
-                .digitalization-flex .digitalization-right .recent-posts h6 {
-                    font-family: var(--font-inter);
-                    font-size: var(--font-size-14);
-                    font-weight: var(--font-weight-regular);
-                    color: var(--color-black-opacity-70);
-                }
-
-                .digitalization-flex .digitalization-right .recent-posts .border {
-                    border: 1px solid --color-gray-border-opacity20;
-                }
-
-            .digitalization-flex .digitalization-right .categories {
-                border: 1px solid var(--color-gray-border-opacity20);
-                padding-top: 50px;
-                padding-left: 40px;
-                padding-bottom: 45px;
-            }
-
-                .digitalization-flex .digitalization-right .categories .category-title{
-                    font-size: var(--font-size-22);
-                    text-decoration: none;
-                    font-family: var(--font-dm);
-                    font-weight: var(--font-weight-bold);
-                    color: var(--color-black);
-                    transition: all 200ms ease-in-out;
-                }
-
-                    .digitalization-flex .digitalization-right .categories .category-title:hover{
-                        text-decoration: underline;
-                    }
-
-                .digitalization-flex .digitalization-right .categories .subcategories{
-                  display: flex;
-                  flex-direction: row;
-                  margin-bottom: 20px;
-                }
-
-                    .digitalization-flex .digitalization-right .categories .subcategories h5{
-                        font-family: var(--font-dm);
-                        font-size: var(--font-size-16);
-                        font-weight: var(--font-weight-bold);
-                    }
-
-                    .digitalization-flex .digitalization-right .categories .subcategories .subcategory-black{
-                        color: var(--color-black);
-                    }
-
-                    .digitalization-flex .digitalization-right .categories .subcategories .subcategory-gray{
-                        color: var(--color-gray-opacity-60);
-                    }
-
-                .digitalization-flex .digitalization-right .categories .technology{
-                    margin-top: 30px;
-                  }
-
-.news {
-    background-color: var(--color-beige);
-}
-    .news .container > p {
-            color: var(--color-orange);
-            font-size: var(--font-size-18);
-            margin-bottom: 10px;
-            padding-top: 45px;
-        }
-
         .news .container .news-title {
             display: flex;
             justify-content: space-between;
             margin-bottom: 40px;
             align-items: center;
         }
-
-            .news .container .news-title .white-btn {
-                background-color: white;
-                color: black;
-                display: flex;
-                align-items: center;
-                border: 1px solid black;
-                padding: 15px 30px;
-                border-radius: 50px;
-                gap: 10px;
-                font-weight: 600;
-                transition: all 200ms ease-in-out;
-            }
-
-                .news .container .news-title .white-btn:hover {
-                    background-color: var(--color-yellow-botton);
-                    border: none;
-                }
 
             .news .container .news-title h1{
                 font-size: 45px;
@@ -481,21 +237,111 @@
                     margin: 0;
                     }
 
-            .news .container .small-dots{
+            .news .container .moving-news{
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 column-gap: 15px;
-                padding-bottom: 70px;
+                padding-bottom: 85px;
             }
 
-                .news .container .small-dots i{
-                    color: var(--color-gray-opacity-60); 
+                .news .container .moving-news button{
+                    font-size: 21px;
+                    font-family: var(--font-dm);
+                    font-weight: var(--font-weight-medium);
+                    color: #19191B;
+                    background-color: white;
+                    border: 1px solid #EAE9F2;
+                    padding-top: 15px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    padding-bottom: 8px;
+                    border-radius: 10px;
+                    transition: all 200ms ease-in-out;
                 }
 
-                .news .container .small-dots #black-ball{
-                    color: var(--color-black); 
+                    .news .container .moving-news button:hover{
+                        background-color: var(--color-black);
+                        color: white;
+                    }
+
+.news-updates {
+    background-color: var(--color-beige);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+    .news-updates .news-updates-two {
+        display: grid;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        grid-template-columns: 4.1fr 1.7fr 1fr;
+    }
+
+        .news-updates .subscribe-button {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-semibold);
+            font-family: var(--font-inter);
+            background-color: var(--color-yellow-botton);
+            border-radius: 25px;
+            height: 56px;
+            width: 208px;
+            border: none;
+            justify-content: center;
+            transition: all 200ms ease-in-out;
+            margin-right: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+            .news-updates .subscribe-button:hover {
+                background-color: var(--color-black);
+                color: var(--color-yellow-botton);
+            }
+
+
+        .news-updates .subscribe-input {
+            width: 310px;
+            height: 56px;
+            border-radius: 25px;
+            border: none;
+            margin-right: 15px;
+        }
+
+            .news-updates .news-updates-two input {
+                padding-left: 40px;   
+            }
+
+                .news-updates .news-updates-two input:focus {
+                    border: none;
+                    outline: 1px solid orange;
                 }
+
+
+        .news-updates h2 {
+            font-size: var(--font-size-45);
+            font-weight: var(--font-weight-bold);
+            font-family: var(--font-dm);
+            color: var(--color-black);
+            align-self: flex-start;
+        }
+
+
+.news-updates .news-line-image {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    height: 100%;
+}
+    
+    .news-updates .news-line-image img {
+        margin-bottom: auto;
+        margin-top: 100px;
+    }
+    
+    
+            
 
 
 .footer {
@@ -551,10 +397,12 @@
                 color: var(--color-yellow-botton);
             }
 
+
             .footer-container {
                 display: flex;
                 justify-content: flex-end;
             }
+            
             
     .footer-border-line {
         border: 1.5px solid var(--color-divider);
@@ -591,5 +439,4 @@
                     color: var(--color-yellow-botton);
                 }
 
-
-            
+                

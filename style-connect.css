@@ -31,6 +31,7 @@
     --font-size-45: 45px;
     --font-size-96: 96px;
 }
+
 .page-top {
     background-color: var(--color-beige);
     position: relative;
@@ -52,7 +53,6 @@
             display: flex;
             justify-content:flex-start;
             align-items: center;
-            
         }
 
         .grid-container .middle-grid {
@@ -61,13 +61,10 @@
             justify-content: flex-start;
         }
 
-
-
         .grid-container .middle-grid .middle-grid-item {
             display: flex;
             align-items: center; 
             margin-bottom: 0;
-            
         }
 
             .showcase .grid-item .showcase-top-contact {
@@ -90,12 +87,10 @@
                 transition: all 200ms ease-in-out;
                 margin-top: 0;
                 margin-bottom: 0;
-
             }
 
                 .showcase .grid-item .showcase-navigation:hover {
                     text-decoration: underline;
-
                 }
 
         .showcase .right-showcase {
@@ -105,6 +100,7 @@
             align-items: end;
 
         }
+
         .showcase .grid-item .showcase-media {
             font-size: var(--font-size-18);
             color: var(--color-black);
@@ -112,8 +108,6 @@
             transition: all 200ms ease-in-out;
             margin-top: 15px;
         }
-
-    
 
             .showcase .grid-item .showcase-media a {
                 margin-right: 15px;
@@ -141,7 +135,6 @@
                 background-color: var(--color-black);
                 color: var(--color-yellow-botton);
             }
-
     
     .connect-showcase {
         display: grid;
@@ -150,8 +143,6 @@
         padding-top: 110px;
         padding-bottom: 80px;
     }
-
-        
 
         .connect-showcase a {
             font-family: var(--font-inter);
@@ -195,7 +186,6 @@
             padding-right: 110px;
             padding-top: 45px;
             padding-bottom: 45px;
-
         }
 
             .contact-section .contact-section-box button{
@@ -263,7 +253,6 @@
             margin-bottom: 45px;
         }
 
-
         .message-section .send-message-button {
             font-size: var(--font-size-16);
             font-weight: var(--font-weight-semibold);
@@ -297,8 +286,6 @@
         padding-bottom: 0;
         margin-bottom: 0;
     }
-
-
 
     .footer {
         background-color: var(--color-black-footer);
@@ -353,12 +340,10 @@
                     color: var(--color-yellow-botton);
                 }
     
-    
                 .footer-container {
                     display: flex;
                     justify-content: flex-end;
                 }
-                
                 
         .footer-border-line {
             border: 1.5px solid var(--color-divider);
